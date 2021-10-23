@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <!--Button Match Parent -->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!--Button 300 dp en horizontal -->
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <!--Button 300 dp x 300 dp -->
+    <Button
+        android:layout_gravity="center"
+        android:layout_width="300dp"
+        android:gravity="bottom"
+        android:textSize="40sp"
+        android:text="@string/btnBtnBig"
+        android:layout_height="300dp" />
+
+    <!--Button gravity end -->
+    <Button
+        android:layout_gravity="end"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <!--Button Margin 25dp -->
+    <Button
+        android:layout_marginStart="25dp"
+        android:layout_width="300dp"
+        android:layout_marginBottom="30dp"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>
